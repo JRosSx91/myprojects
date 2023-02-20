@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+@media (max-width: 800px) {
+    body {
+        display: block;
+        width: 100%;
+    }
+
+    #navbar {
+        width: 100%;
+        margin: 15px auto;
+        display: block;
+        height: 100%;
+    }
+
+    #main-doc {
+        width: 100%;
+    }
+}
+
+body {
+    display: flex;
+}
+
+#navbar {
+    width: 20%;
+    margin: 15px auto;
+    border: 1px solid black;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+#main-doc {
+    width: 80%;
+    height: 100%;
+    margin: 15px auto;
+    padding: 15px;
+    border-left: double 2px black;
+}
+
+header {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

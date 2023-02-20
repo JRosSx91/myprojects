@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <title>Pet Survey</title>
+</head>
+
+<body>
+    <main>
+        <div class="all">
+            <div class="header">
+                <h1 id="title">Pet Survey</h1>
+                <p id="description">We would like to ask for your collaboration in this survey about pets</p>
+            </div>
+            <form id="survey-form">
+                <div class="info">
+                    <label id="name-label" for="name">Name</label>
+                    <input id="name" type="text" class="form-info" placeholder=" Enter your name" required />
+                </div>
+                <div class="info">
+                    <label id="email-label" for="email">Email</label>
+                    <input id="email" type="email" class="form-info" placeholder=" Example@example.com" required />
+                </div>
+                <div class="info">
+                    <label id="number-label" for="number">Age (optional)</label>
+                    <input id="number" type="number" class="form-info" min="13" max="120" placeholder=" Age">
+                </div>
+                <div>
+                    <p>How many pets do you have at home?</p>
+                    <select id="dropdown">
+                        <option value="">Select one </option>
+                        <option value="1">None </option>
+                        <option value="2">One </option>
+                        <option value="3">Two </option>
+                        <option value="4">Three or more </option>
+                    </select>
+                </div>
+                <div>
+                    <p>Which one is your favourite?</p>
+                    <label><input name="dog-cat-other" type="radio" value="dog" checked> Dog</label>
+                    <label><input name="dog-cat-other" type="radio" value="cat"> Cat</label>
+                    <label><input name="dog-cat-other" type="radio" value="other"> Other</label>
+                </div>
+                <div>
+                    <p>What kind of pet do you have at home?</p>
+                    <label><input type="checkbox" value="dogs"> Dogs</label>
+                    <label><input type="checkbox" value="cats"> Cats</label>
+                    <label><input type="checkbox" value="birds"> Birds</label>
+                    <label><input type="checkbox" value="fishes"> Fishes</label>
+                    <label><input type="checkbox" value="reptiles"> Reptiles</label>
+                    <label><input type="checkbox" value="arachnids"> Arachnids</label>
+                    <label><input type="checkbox" value="others"> Others</label>
+                </div>
+                <div>
+                    <p>Any comments?</p>
+                    <textarea id="comments" placeholder="Enter your comments here...">
+            </textarea>
+                </div>
+                <div>
+                    <button id="submit" type="submit" value="Submit" style="min-width: 300px; height: 50px"> Submit
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    background-color: rgb(222, 222, 222);
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header {
+    width: 100%;
+}
+
+h1,
+header>p {
+    font-weight: 800;
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+}
+
+figure {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 15px 5px;
+}
+
+figcaption {
+    width: 90%;
+    text-align: center;
+    margin: 5px auto;
+    border-radius: 50px;
+}
+
+#image {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+    width: 90%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+#tribute-info {
+    width: 80%;
+    margin: 10px auto;
+}
+
+h2 {
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+}
